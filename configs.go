@@ -10,7 +10,7 @@ import (
 )
 
 // Telegram constants
-const (
+var (
 	// APIEndpoint is the endpoint for all API methods,
 	// with formatting for Sprintf.
 	APIEndpoint = "https://api.telegram.org/bot%s/%s"
